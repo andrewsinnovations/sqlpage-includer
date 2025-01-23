@@ -1,0 +1,13 @@
+A simple pre-processor that could be used for anything but is designed for SQLPage (www.sql-page.com)
+
+Watches a directory for changes. If a file includes a line that that matches "##include <filename>" it will pull in that file into the resulting dist directory.
+
+Options:
+--watch         - Directory to watch for file changes (default: current directory)
+--output        - Directory to save processed files (default: dist/ in inputDir)
+--textExtensions - Additional comma-separated text file extensions (default: .txt,.html,.js,.css,.json,.md,.sql)
+--skipDelete    - Skip deleting the output directory if it already exists
+--childProcess  - Command to spawn a child process with the output directory as the working directory (default: sqlpage)
+--includeRoot   - Root directory for includes (default: input directory)
+--maxRecursion  - Maximum depth for resolving includes (default: 10)
+

@@ -1,0 +1,15 @@
+{
+  "name": "sqlpage-includer",
+  "version": "1.0.0",
+  "description": "A simple pre-processor that could be used for anything but is designed for SQLPage (www.sql-page.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sqlpage-includer": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
